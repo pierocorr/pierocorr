@@ -46,6 +46,22 @@
 
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/pierocorr/pierocorr/main/profile-3d-contrib/profile-night-rainbow.svg" width="90%" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://github-readme-quotes.vercel.app/quote?theme=dark&layout=horizontal&border_color=2b2b2b&quote_size=15" width="70%" />
+
+</div>
+
+<br>
+
+<div align="center">
+
 <img src="https://raw.githubusercontent.com/pierocorr/pierocorr/main/divider.svg" width="70%" />
 
 <br><br>
