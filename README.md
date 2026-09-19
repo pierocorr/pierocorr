@@ -27,7 +27,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=pierocorr&show_icons=true&theme=dark&hide_border=true&bg_color=0d0d0d&title_color=ffffff&icon_color=ffffff&text_color=cccccc" width="70%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=pierocorr&theme=dark&hide_border=true&background=0d0d0d&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakLabel=ffffff" width="70%" />
 
 </div>
 
