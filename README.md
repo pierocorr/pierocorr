@@ -1,8 +1,10 @@
 <div align="center">
 
-# Piero Cordova
+<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=180&section=header&text=Piero%20Cordova&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" />
 
-*Estudiante de Ingeniería de Sistemas e Informática · construyendo cosas, línea por línea.*
+<br>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1200&color=FFFFFF&background=00000000&center=true&vCenter=true&width=460&lines=Estudiante+de+Ing.+de+Sistemas+e+Informatica;Java+Developer;JavaScript+Enthusiast)](https://git.io/typing-svg)
 
 <br>
 
@@ -29,6 +31,16 @@
 <div align="center">
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=pierocorr&theme=dark&hide_border=true&background=0d0d0d&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakLabel=ffffff" width="70%" />
+
+</div>
+
+<br>
+
+## ⌗ Trofeos
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=pierocorr&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1" width="90%" />
 
 </div>
 
