@@ -39,7 +39,7 @@
 
 <div align="center">
 
-▸ Aprendiendo Dart, JavaScript, Java, Git, GitHub, Git y VSCode en la carrera.
+▸ Aprendiendo Dart, JavaScript, Java, GitHub, Git y VSCode en la carrera.
 
 </div>
 
