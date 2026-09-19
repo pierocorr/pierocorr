@@ -8,6 +8,7 @@
 
 [![Instagram](https://img.shields.io/badge/-pierocorr-000000?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/pierocorr)
 ![Visitas](https://komarev.com/ghpvc/?username=pierocorr&style=flat-square&color=000000&label=visitas)
+![Último commit](https://img.shields.io/github/last-commit/pierocorr/pierocorr?style=flat-square&color=000000&label=último%20commit&labelColor=000000)
 
 </div>
 
@@ -34,6 +35,16 @@
 
 <br>
 
+## ⌗ Actualmente
+
+<div align="center">
+
+▸ Aprendiendo y reforzando Java y JavaScript en la carrera.
+
+</div>
+
+<br>
+
 ## ⌗ Actividad
 
 <div align="center">
@@ -46,18 +57,14 @@
 
 <div align="center">
 
-<img src="https://github-readme-quotes.vercel.app/quote?theme=dark&layout=horizontal&border_color=2b2b2b&quote_size=15" width="70%" />
-
-</div>
-
-<br>
-
-<div align="center">
-
 <img src="https://raw.githubusercontent.com/pierocorr/pierocorr/main/divider.svg" width="70%" />
 
 <br><br>
 
 <img src="https://raw.githubusercontent.com/pierocorr/pierocorr/main/footer.svg?v=1" width="100%" />
+
+<br>
+
+<img src="https://raw.githubusercontent.com/pierocorr/pierocorr/main/cursor.svg" width="80" />
 
 </div>
