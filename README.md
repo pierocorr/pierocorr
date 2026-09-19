@@ -39,7 +39,7 @@
 
 <div align="center">
 
-▸ Aprendiendo Dart, JavaScript y GitHub en la carrera.
+▸ Aprendiendo y reforzando Java y JavaScript en la carrera.
 
 </div>
 
@@ -50,6 +50,14 @@
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/pierocorr/pierocorr/output/github-contribution-grid-snake-dark.svg" width="90%" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/pierocorr/pierocorr/main/weekly.svg" width="50%" />
 
 </div>
 
