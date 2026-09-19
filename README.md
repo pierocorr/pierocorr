@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/pierocorr/pierocorr/main/banner.svg" width="100%" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=16&pause=1200&color=999999&background=00000000&center=true&vCenter=true&width=600&lines=Estudiante+de+Ing.+de+Sistemas+e+Informatica;Java+Developer;JavaScript+Enthusiast)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=16&pause=1200&color=999999&background=00000000&center=true&vCenter=true&width=600&lines=Java+Developer;JavaScript+Enthusiast)](https://git.io/typing-svg)
 
 <br>
 
