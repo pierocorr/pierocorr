@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate Profile Assets
 
 on:
   schedule:
@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  generate:
+  snake:
     permissions:
       contents: write
     runs-on: ubuntu-latest
@@ -28,3 +28,21 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  metrics:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: pierocorr
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Lima
+          plugin_lines: yes
+          plugin_lines_sections: base
+          output_action: gh-pages
+          committer_branch: output
+          filename: github-metrics.svg
