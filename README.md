@@ -7,6 +7,7 @@
 <br>
 
 [![Instagram](https://img.shields.io/badge/-pieroocorr-000000?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/pieroocorr)
+![Visitas](https://komarev.com/ghpvc/?username=pierocorr&style=flat-square&color=000000&label=visitas)
 
 </div>
 
@@ -28,6 +29,20 @@
 <div align="center">
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=pierocorr&theme=dark&hide_border=true&background=0d0d0d&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakLabel=ffffff" width="70%" />
+
+<br>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pierocorr&layout=compact&theme=dark&hide_border=true&bg_color=0d0d0d&title_color=ffffff&text_color=cccccc" width="45%" />
+
+</div>
+
+<br>
+
+## ⌗ Actividad
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/pierocorr/pierocorr/output/github-contribution-grid-snake-dark.svg" width="90%" />
 
 </div>
 
