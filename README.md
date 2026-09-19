@@ -4,7 +4,7 @@
 
 <br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1200&color=FFFFFF&background=00000000&center=true&vCenter=true&width=460&lines=Estudiante+de+Ing.+de+Sistemas+e+Informatica;Java+Developer;JavaScript+Enthusiast)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=16&pause=1200&color=FFFFFF&background=00000000&center=true&vCenter=true&width=600&lines=Estudiante+de+Ing.+de+Sistemas+e+Informatica;Java+Developer;JavaScript+Enthusiast)](https://git.io/typing-svg)
 
 <br>
 
@@ -40,7 +40,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=pierocorr&theme=onedark&no-frame=true&row=1&column=6&margin-w=8" width="90%" />
+<img src="https://github-profile-trophy.vercel.app/?username=pierocorr&theme=dark" width="90%" />
 
 </div>
 
