@@ -46,6 +46,6 @@
 
 <div align="center">
 
-⋆⋆⋆
+<img src="https://raw.githubusercontent.com/pierocorr/pierocorr/main/divider.svg" width="70%" />
 
 </div>
