@@ -46,3 +46,62 @@ jobs:
           output_action: gh-pages
           committer_branch: output
           filename: github-metrics.svg
+
+  weekly:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Fetch last 7 days of contributions
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          QUERY='{"query":"query($login:String!){ user(login:$login){ contributionsCollection { contributionCalendar { weeks { contributionDays { date contributionCount } } } } } }","variables":{"login":"pierocorr"}}'
+          RESPONSE=$(curl -s -H "Authorization: bearer $GITHUB_TOKEN" -H "Content-Type: application/json" -d "$QUERY" https://api.github.com/graphql)
+          COUNTS=$(echo "$RESPONSE" | jq -c '[.data.user.contributionsCollection.contributionCalendar.weeks[].contributionDays[]] | .[-7:] | map(.contributionCount)')
+          echo "COUNTS=$COUNTS" >> "$GITHUB_ENV"
+
+      - name: Generate weekly.svg
+        run: |
+          python3 << 'PYEOF'
+          import json, os
+
+          counts = json.loads(os.environ["COUNTS"])
+          max_c = max(counts) if max(counts) > 0 else 1
+          bar_w, gap, max_h, height = 60, 20, 90, 160
+          width = len(counts) * (bar_w + gap) + gap
+          days = ["L", "M", "X", "J", "V", "S", "D"]
+
+          svg = f'<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">'
+          svg += f'<rect width="{width}" height="{height}" fill="#000000"/>'
+
+          for i, c in enumerate(counts):
+              h = max(int((c / max_c) * max_h), 4)
+              x = gap + i * (bar_w + gap)
+              y_full = height - 30 - h
+              svg += (
+                  f'<rect x="{x}" y="{height - 30}" width="{bar_w}" height="0" fill="#ffffff">'
+                  f'<animate attributeName="height" from="0" to="{h}" dur="0.8s" begin="{i * 0.1}s" fill="freeze"/>'
+                  f'<animate attributeName="y" from="{height - 30}" to="{y_full}" dur="0.8s" begin="{i * 0.1}s" fill="freeze"/>'
+                  f'</rect>'
+              )
+              svg += (
+                  f'<text x="{x + bar_w / 2}" y="{height - 10}" text-anchor="middle" '
+                  f'font-family="Georgia, serif" font-size="11" fill="#8a8a8a">{days[i]}</text>'
+              )
+
+          svg += "</svg>"
+
+          with open("weekly.svg", "w") as f:
+              f.write(svg)
+          PYEOF
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add weekly.svg
+          git commit -m "update weekly activity" || echo "nothing to commit"
+          git push
