@@ -1,10 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=180&section=header&text=Piero%20Cordova&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=120&section=header" width="100%" />
 
 <br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=16&pause=1200&color=FFFFFF&background=00000000&center=true&vCenter=true&width=600&lines=Estudiante+de+Ing.+de+Sistemas+e+Informatica;Java+Developer;JavaScript+Enthusiast)](https://git.io/typing-svg)
+[![Nombre](https://readme-typing-svg.demolab.com/?font=Playfair+Display&weight=600&size=42&pause=1000&color=FFFFFF&background=00000000&center=true&vCenter=true&width=500&height=60&lines=Piero+Cordova&repeat=false)](https://git.io/typing-svg)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=16&pause=1200&color=999999&background=00000000&center=true&vCenter=true&width=600&lines=Estudiante+de+Ing.+de+Sistemas+e+Informatica;Java+Developer;JavaScript+Enthusiast)](https://git.io/typing-svg)
 
 <br>
 
@@ -36,11 +38,11 @@
 
 <br>
 
-## ⌗ Trofeos
+## ⌗ Métricas
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=pierocorr&theme=dark" width="90%" />
+<img src="https://raw.githubusercontent.com/pierocorr/pierocorr/output/github-metrics.svg" width="90%" />
 
 </div>
 
