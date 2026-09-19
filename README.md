@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=120&section=header" width="100%" />
-
-<br>
-
-[![Nombre](https://readme-typing-svg.demolab.com/?font=Playfair+Display&weight=600&size=42&pause=1000&color=FFFFFF&background=00000000&center=true&vCenter=true&width=500&height=60&lines=Piero+Cordova&repeat=false)](https://git.io/typing-svg)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=200&section=header&text=Piero%20Cordova&fontSize=44&fontColor=ffffff&fontAlignY=40&animation=fadeIn" width="100%" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=16&pause=1200&color=999999&background=00000000&center=true&vCenter=true&width=600&lines=Estudiante+de+Ing.+de+Sistemas+e+Informatica;Java+Developer;JavaScript+Enthusiast)](https://git.io/typing-svg)
 
@@ -33,16 +29,6 @@
 <div align="center">
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=pierocorr&theme=dark&hide_border=true&background=0d0d0d&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakLabel=ffffff" width="70%" />
-
-</div>
-
-<br>
-
-## ⌗ Métricas
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/pierocorr/pierocorr/output/github-metrics.svg" width="90%" />
 
 </div>
 
