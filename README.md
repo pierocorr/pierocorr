@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/pierocorr/pierocorr/main/banner.svg" width="100%" />
+<img src="https://raw.githubusercontent.com/pierocorr/pierocorr/main/banner.svg?v=3" width="100%" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=16&pause=1200&color=999999&background=00000000&center=true&vCenter=true&width=600&lines=Java+Developer;JavaScript+Enthusiast)](https://git.io/typing-svg)
 
@@ -47,5 +47,9 @@
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/pierocorr/pierocorr/main/divider.svg" width="70%" />
+
+<br><br>
+
+<img src="https://raw.githubusercontent.com/pierocorr/pierocorr/main/footer.svg?v=1" width="100%" />
 
 </div>
